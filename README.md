@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/blockai/winston-rollbar-transport.svg?branch=master)](https://travis-ci.org/blockai/winston-rollbar-transport)
 
+A [winston](https://github.com/winstonjs/winston) logger transport for
+[Rollbar](https://github.com/rollbar/node_rollbar).
+
 ## Install
 
 ```bash
