@@ -64,4 +64,16 @@ field in addition to the message. For example:
 logger.error(err, { err })
 ```
 
+### Using with console transport
+
+If you are using this with the `console` transport, you might want to
+disable printing the meta objects so that you don't see the whole
+`req` object when its set:
+
+```javacript
+new winston.transports.Console({
+  prettyPrint: () => '', // disables printing the meta object
+})
+```
+
 See [./test](./test) directory for usage examples.
