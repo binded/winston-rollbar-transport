@@ -4,7 +4,6 @@ import winston from 'winston'
 import RollbarTransport from '../src'
 
 const rollbarAccessToken = process.env.ROLLBAR_ACCESS_TOKEN
-  || 'a16491ee78e74a6191d128bbf9d5b6f2'
 
 let logger
 test('setup', (t) => {
